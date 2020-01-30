@@ -5,6 +5,11 @@ var BigSlider = new Swiper ('.back-slider-init', {
         crossFade: true
     },
     speed: 1000,
+    on: {
+        init: function () {
+          document.querySelector('.back-slider-init').style.opacity = 1;
+        },
+    },
 })
 
 
@@ -44,6 +49,11 @@ var contentSlider2 = new Swiper ('.content-slider-init2', {
         type: 'bullets',
         clickable: true
     },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
     // autoplay: {
     //  delay: 10000,
     // },

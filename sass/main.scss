@@ -108,12 +108,13 @@ max-width: 347px;
     color: #FFFFFF;
     font-weight: 900;
     margin-bottom: 78px;
+    max-width: 1100px;
   }
   .content{
     padding-top: 200px;
     padding-bottom: 100px;
-    max-width: 1064px;
     margin: 0 auto;
+    margin-left: calc(16.666666% + 25px);
     flex: 1;
   }
   .swiper-slide{
@@ -678,4 +679,104 @@ margin-bottom: 50px;
       margin-left: 0;
     }
   }
+}
+.second-slider{
+  .video-bttn{
+    position: absolute;
+    margin: 0;
+    right: 16.66667%;
+    top: 300px;
+    .text{
+      max-width: 200px;
+      text-transform: uppercase;
+      font-weight: 600;
+font-size: 18px;
+line-height: 134.69%;
+    }
+  }
+}
+.go-link{
+  font-size: 16px;
+line-height: 23px;
+text-transform: uppercase;
+text-decoration: none;
+color: #FCEC00;
+display: flex;
+align-items: center;
+span{
+  display: inline-block;
+  max-width: 127px;
+}
+img{
+  margin-left: 20px;
+}
+}
+.second-slider{
+  .go-link{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+  }
+}
+.second-slider-nav{
+  position: absolute;
+  left: 0;
+  top: 200px;
+  width: 120px;
+
+}
+.second-slider-prev{
+  background-image: url('../svg/arrow-down.svg');
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(90deg);
+  outline: none;
+  transition: 0.3s;
+  &:hover{
+    transform:rotate(90deg) scale(1.2);
+  }
+}
+.second-slider-next{
+  background-image: url('../svg/arrow-down.svg');
+  color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(-90deg);
+  outline: none;
+  transition: 0.3s;
+  top: 1px;
+  &:hover{
+    transform:rotate(-90deg) scale(1.2);
+  }
+}
+.back-slider-init{
+  opacity: 0;
+  transition: 1s;
+}
+.green{
+  color: #64d428;
+}
+.list-block{
+  margin-bottom: 40px;
+  padding-right: 20px;
+.text{
+  font-size: 16px;
+line-height: 132.69%;
+max-width: 270px;
+/* or 21px */
+
+
+color: #8A8A8A
+}
+}
+.list-white{
+  font-weight: 600;
+font-size: 24px;
+line-height: 132.69%;
+color: #fff;
+text-transform: uppercase;
+}
+.list-wrap{
+  max-width: 700px;
 }
