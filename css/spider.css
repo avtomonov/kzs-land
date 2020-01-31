@@ -525,7 +525,7 @@ output {
 
   .text-justify-mobile {
     text-align: justify; } }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .text-right-lg {
     text-align: right; }
 
@@ -537,7 +537,7 @@ output {
 
   .text-justify-lg {
     text-align: justify; } }
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .text-right-lg-only {
     text-align: right; }
 
@@ -735,7 +735,7 @@ output {
 
   .show-inline-block-mobile {
     display: inline-block !important; } }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .hide-lg {
     display: none !important; }
 
@@ -753,7 +753,7 @@ output {
 
   .show-inline-block-lg {
     display: inline-block !important; } }
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .hide-lg-only {
     display: none !important; }
 
@@ -1398,7 +1398,7 @@ output {
     margin: 0;
     padding: 0;
     width: 100%; } }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .push-0-lg {
     margin-left: 0%; }
 
@@ -1541,7 +1541,7 @@ output {
     margin: 0;
     padding: 0;
     width: 100%; } }
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .push-0-lg-only {
     margin-left: 0%; }
 
@@ -3262,7 +3262,7 @@ output {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1104px;
+  max-width: 1134px;
   
    }
 
@@ -3527,7 +3527,7 @@ output {
     -webkit-flex-basis: 20%;
     -ms-flex-preferred-size: 20%;
     flex-basis: 20%; } }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .cell-1-lg {
     max-width: 8.33333%;
     -webkit-flex-basis: 8.33333%;
@@ -3605,7 +3605,7 @@ output {
     -webkit-flex-basis: 20%;
     -ms-flex-preferred-size: 20%;
     flex-basis: 20%; } }
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .cell-1-lg-only {
     max-width: 8.33333%;
     -webkit-flex-basis: 8.33333%;
@@ -4603,7 +4603,7 @@ output {
   -ms-flex-order: 1;
   order: 1; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .flex-start-lg {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -4665,7 +4665,7 @@ output {
     -webkit-order: 1;
     -ms-flex-order: 1;
     order: 1; } }
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .flex-start-lg-only {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;

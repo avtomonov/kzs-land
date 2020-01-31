@@ -4,49 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <title>KZS GROUP</title>
+    <link rel="shortcut icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/spider.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link href="css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fancybox.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header class="header">
         <div class="big-container">
-            <div class="row flex-middle is-grid">
-                <div class="cell-2">
-                    <a href="/">
-                        <img src="svg/logo.svg" alt="">
+            <div class="flex flex-middle is-grid">
+                <div class="cell-2 hide-lg">
+                    <a href="#" class="logo hide-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="103" height="48" viewBox="0 0 103 48" fill="none">
+                            <path d="M98.8604 23.4392C96.0955 21.2974 91.8846 19.585 86.2275 18.3018C83.1426 17.5956 81.0754 16.933 80.0257 16.314C78.976 15.695 78.4506 14.8542 78.4496 13.7918C78.4496 12.8627 78.8354 12.1113 79.6068 11.5375C80.3783 10.9637 81.4927 10.6763 82.95 10.6752C87.1488 10.6752 91.3485 12.1991 95.5493 15.2468L101.785 6.16522C96.8135 2.05613 90.6423 0.00105092 83.271 0C80.498 0 78.0211 0.377281 75.8402 1.13184L42.2355 1.08613L42.2462 1.07352H27.6352L12.3241 19.6748V1.07352H0V46.932H12.3241V35.0729L25.4064 20.7688L25.4171 20.7846L33.0742 11.8165H55.5456L35.1731 35.4512L27.2576 23.5842L18.7338 32.7919L28.0159 46.932H75.9411C78.843 47.6608 81.8207 48.0192 84.8073 47.9992C90.337 47.9992 94.7513 46.6514 98.0502 43.9558C101.349 41.2602 102.999 37.5699 103 32.8849C103.004 28.7327 101.624 25.5841 98.8604 23.4392ZM85.2644 37.3271C80.0313 37.3271 75.1671 35.4722 70.6718 31.7625L67.0763 36.1921H50.261L66.1026 17.8084C66.2833 18.8761 66.6096 19.912 67.0718 20.8855C67.887 22.5669 69.1406 23.9478 70.8323 25.0282C72.47 26.0858 74.2162 26.9534 76.0389 27.615C78.2651 28.3871 80.5285 29.0401 82.8201 29.5713C85.8193 30.2796 87.8336 30.9533 88.8629 31.5922C89.8922 32.2312 90.4074 33.0378 90.4084 34.012C90.4084 36.2221 88.6937 37.3271 85.2644 37.3271Z" fill="white" />
+
+                        </svg>
                     </a>
                 </div>
 
                 <div class="header-container">
                     <div class="row flex-middle">
                         <ul class="header-list list-row">
-                            <li><a href="/">Услуги</a></li>
-                            <li><a href="/">О компании</a></li>
-                            <li><a href="/">Контакты</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Контакты</a></li>
                         </ul>
                         <div class="header-lang-switcher">
-                            <a href="/" class="current">RUS</a>
+                            <a href="#" class="current">RUS</a>
                             <div class="delim">/</div>
-                            <a href="/">ENG</a>
+                            <a href="#">ENG</a>
                         </div>
+                       <div class="header-phone-widjet cell-2 hide show-lg">
+                        <a href="tel: 8 800 500 60 60" class="header-phone">
+                           8 800 500 60 60
+                       </a>
+                       <div class="return-call">
+                           Для звонков по России
+                       </div>
+                </div>
                     </div>
                 </div>
 
-                <div class="header-phone-widjet cell-2">
-                    <a href="tel: 8 800 500 60 60" class="header-phone">
-                        8 800 500 60 60
-                    </a>
-                    <div class="return-call">
-                        Для звонков по России
-                    </div>
+                <div class="header-phone-widjet cell-2 hide-lg">
+                   <div class="wrap-super">
+                        <a href="tel: 8 800 500 60 60" class="header-phone">
+                           8 800 500 60 60
+                       </a>
+                       <div class="return-call">
+                           Для звонков по России
+                       </div>
+                   </div>
                 </div>
             </div>
+        </div>
+        <div class="mobile-header">
+            <a href="#" class="logo hide-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="103" height="48" viewBox="0 0 103 48" fill="none">
+                    <path d="M98.8604 23.4392C96.0955 21.2974 91.8846 19.585 86.2275 18.3018C83.1426 17.5956 81.0754 16.933 80.0257 16.314C78.976 15.695 78.4506 14.8542 78.4496 13.7918C78.4496 12.8627 78.8354 12.1113 79.6068 11.5375C80.3783 10.9637 81.4927 10.6763 82.95 10.6752C87.1488 10.6752 91.3485 12.1991 95.5493 15.2468L101.785 6.16522C96.8135 2.05613 90.6423 0.00105092 83.271 0C80.498 0 78.0211 0.377281 75.8402 1.13184L42.2355 1.08613L42.2462 1.07352H27.6352L12.3241 19.6748V1.07352H0V46.932H12.3241V35.0729L25.4064 20.7688L25.4171 20.7846L33.0742 11.8165H55.5456L35.1731 35.4512L27.2576 23.5842L18.7338 32.7919L28.0159 46.932H75.9411C78.843 47.6608 81.8207 48.0192 84.8073 47.9992C90.337 47.9992 94.7513 46.6514 98.0502 43.9558C101.349 41.2602 102.999 37.5699 103 32.8849C103.004 28.7327 101.624 25.5841 98.8604 23.4392ZM85.2644 37.3271C80.0313 37.3271 75.1671 35.4722 70.6718 31.7625L67.0763 36.1921H50.261L66.1026 17.8084C66.2833 18.8761 66.6096 19.912 67.0718 20.8855C67.887 22.5669 69.1406 23.9478 70.8323 25.0282C72.47 26.0858 74.2162 26.9534 76.0389 27.615C78.2651 28.3871 80.5285 29.0401 82.8201 29.5713C85.8193 30.2796 87.8336 30.9533 88.8629 31.5922C89.8922 32.2312 90.4074 33.0378 90.4084 34.012C90.4084 36.2221 88.6937 37.3271 85.2644 37.3271Z" fill="white" />
+                </svg>
+             </a>
         </div>
     </header>
 
@@ -59,25 +81,37 @@
                 </div>
                 <div class="swiper-slide swiper-no-swiping" style="background-image: url(jpg/first-screen.jpg)">
                 </div>
-                <div class="swiper-slide swiper-no-swiping" style="background-image: url(jpg/imgonline-com-ua-Mirror-O5rCeSFQOF60.jpg)">
+                <div class="swiper-slide swiper-no-swiping" style="background-image: url(jpg/joe-gardner-dXXsPf_qnKw-unsplash.jpg)">
                 </div>
             </div>
         </div>
 
-        <div class="big-container">
+        <div class="container">
             <div class="swiper-container content-slider content-slider-init">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="content">
-                            <div class="big-text">
+
+                            <div class="video-bttn hide show-flex-md" data-swiper-parallax-scale="0.15" data-fancy="https://www.youtube.com/embed/NMo9h-YKkz8">
+                                <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                    <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                    <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                </svg>
+                                
+                            </div>
+
+                            <div class="big-text" data-swiper-parallax="-300" data-swiper-parallax-duration="1000">
                                 комплексное загородное строительство
                             </div>
                             <div class="row flex-middle">
-                                <div class="sub-text">
+                                <div class="sub-text" >
                                     Оказываем услуги в сфере строительства от этапа проектирования до монтажа и обслуживания объектов.
                                 </div>
-                                <div class="video-bttn">
-                                    <img src="jpg/video.svg" alt="">
+                                <div class="video-bttn hide-md" data-swiper-parallax-scale="0.15" data-fancy="https://www.youtube.com/embed/NMo9h-YKkz8">
+                                    <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                        <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                        <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                    </svg>
                                     <div class="text">
                                         смотрите видео о нас
                                     </div>
@@ -88,24 +122,102 @@
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+          <div class="swiper-slide">
                         <div class="content">
-                            <div class="big-text">
-                                комплексное загородное строительство 2
+
+                            <div class="video-bttn hide show-flex-md" data-swiper-parallax-scale="0.15" data-fancy="https://www.youtube.com/embed/NMo9h-YKkz8">
+                                <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                    <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                    <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                </svg>
+                                
+                            </div>
+
+                            <div class="big-text" data-swiper-parallax="-300" data-swiper-parallax-duration="1000">
+                                комплексное загородное строительство
+                            </div>
+                            <div class="row flex-middle">
+                                <div class="sub-text" >
+                                    Оказываем услуги в сфере строительства от этапа проектирования до монтажа и обслуживания объектов.
+                                </div>
+                                <div class="video-bttn hide-md" data-swiper-parallax-scale="0.15" data-fancy="https://www.youtube.com/embed/NMo9h-YKkz8">
+                                    <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                        <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                        <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                    </svg>
+                                    <div class="text">
+                                        смотрите видео о нас
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="next">
+                                <img src="svg/arrow-down.svg" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                              <div class="swiper-slide">
                         <div class="content">
-                            <div class="big-text">
-                                комплексное загородное строительство 3
+
+                            <div class="video-bttn hide show-flex-md" data-swiper-parallax-scale="0.15" data-fancy="https://www.youtube.com/embed/NMo9h-YKkz8">
+                                <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                    <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                    <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                </svg>
+                                
+                            </div>
+
+                            <div class="big-text" data-swiper-parallax="-300" data-swiper-parallax-duration="1000">
+                                комплексное загородное строительство
+                            </div>
+                            <div class="row flex-middle">
+                                <div class="sub-text" >
+                                    Оказываем услуги в сфере строительства от этапа проектирования до монтажа и обслуживания объектов.
+                                </div>
+                                <div class="video-bttn hide-md" data-swiper-parallax-scale="0.15" data-fancy="https://www.youtube.com/embed/NMo9h-YKkz8">
+                                    <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                        <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                        <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                    </svg>
+                                    <div class="text">
+                                        смотрите видео о нас
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="next">
+                                <img src="svg/arrow-down.svg" alt="">
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
+                              <div class="swiper-slide">
                         <div class="content">
-                            <div class="big-text">
-                                комплексное загородное строительство 4
+
+                            <div class="video-bttn hide show-flex-md" data-swiper-parallax-scale="0.15" data-fancy="https://www.youtube.com/embed/NMo9h-YKkz8">
+                                <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                    <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                    <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                </svg>
+                                
+                            </div>
+
+                            <div class="big-text" data-swiper-parallax="-300" data-swiper-parallax-duration="1000">
+                                комплексное загородное строительство
+                            </div>
+                            <div class="row flex-middle">
+                                <div class="sub-text" >
+                                    Оказываем услуги в сфере строительства от этапа проектирования до монтажа и обслуживания объектов.
+                                </div>
+                                <div class="video-bttn hide-md" data-swiper-parallax-scale="0.15" data-fancy="https://www.youtube.com/embed/NMo9h-YKkz8">
+                                    <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                        <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                        <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                    </svg>
+                                    <div class="text">
+                                        смотрите видео о нас
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="next">
+                                <img src="svg/arrow-down.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -118,16 +230,17 @@
     <section class="kzs-block">
         <div class="container">
             <div class="row">
-                <div class="cell-10">
+                <div class="cell-10 cell-9-lg cell-12-md">
                     <div class="kzs-block-description">
                         KZS group -- это комплексные решения и индивидуальные услуги в сфере строительства для проектов любой сложности.
+                        <a href="#" class="kzs-block-all-proj mt40">
+                            <span>ПОСМОТРЕТЬ ВСЕ УСЛУГИ</span>
+                            <img src="svg/arrow-right.svg" alt="">
+                        </a>
                     </div>
-                    <a href="/" class="kzs-block-all-proj mt40">
-                        <span>ПОСМОТРЕТЬ ВСЕ УСЛУГИ</span>
-                        <img src="svg/arrow-right.svg" alt="">
-                    </a>
+
                 </div>
-                <div class="cell-2">
+                <div class="cell-2 cell-3-lg cell-12-md">
                     <div class="article-card mb80">
                         <div class="article-card-title">вы частный заказчик ИЛИ партнёр?</div>
                         <div class="article-card-description">
@@ -145,7 +258,7 @@
         </div>
     </section>
 
-    <section class="big-slider second-slider">
+    <section class="big-slider second-slider hide-md">
         <div class="swiper-container back-slider back-slider-init2">
             <div class="swiper-wrapper">
                 <div class="swiper-slide swiper-no-swiping" style="background-image: url(jpg/Slice2.jpg)">
@@ -159,7 +272,7 @@
             </div>
         </div>
 
-        <div class="big-container">
+        <div class="container">
             <div class="second-slider-nav">
                 <div class="swiper-button-prev second-slider-prev"></div>
                 <div class="swiper-button-next second-slider-next"></div>
@@ -168,28 +281,32 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="content">
-                            <div class="video-bttn">
-                                <img src="jpg/video.svg" alt="">
+                            <div class="video-bttn" data-fancy="https://youtu.be/X-X4tCg1jz8" data-swiper-parallax-scale="0.15">
+                                <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                    <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                    <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                </svg>
+
                                 <div class="text">
                                     наши сваи уже устанавливают в австралии
                                 </div>
                             </div>
-                            <a href="/" class="go-link yellow">
+                            <a href="#" class="go-link yellow" data-swiper-parallax-scale="0.15">
                                 <span>перейти на сайт проекта</span>
                                 <img src="svg/yellow-arrow.svg" alt="">
-                            </a>    
+                            </a>
                             <div class="slider-second-title">
                                 флагманские услуги
                             </div>
-                            <div class="big-text">
+                            <div class="big-text" data-swiper-parallax="-300">
                                 королёвский
                                 <div class="yellow">завод свай</div>
                             </div>
                             <div class="row number-wrap">
                                 <div class="cell-4">
                                     <div class="number-block">
-                                        <div class="number number-white">
-                                            2000
+                                        <div class="number number-white" data-number="2000">
+                                            0
                                         </div>
                                         <div class="text">
                                             Свай производим каждый день
@@ -199,7 +316,7 @@
                                 <div class="cell-4">
                                     <div class="number-block">
                                         <div class="number number-white">
-                                            24/7
+                                            <span data-number="24">0</span>/<span data-number="7">0</span>
                                         </div>
                                         <div class="text">
                                             Наш постоянный режим работы
@@ -209,7 +326,7 @@
                                 <div class="cell-4">
                                     <div class="number-block">
                                         <div class="number number-white">
-                                            3,5
+                                            <span data-number='3'>3</span>,<span data-number='5'>0</span>
                                         </div>
                                         <div class="text">
                                             Миллиона свай установлено нами
@@ -217,7 +334,7 @@
                                     </div>
                                 </div>
                             </div>
-                        <div class="row flex-middle">
+                            <div class="row flex-middle">
                                 <div class="sub-text">
                                     Крупнейшее в России производство винтовых и железобетонных свай
                                 </div>
@@ -226,20 +343,20 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="content">
-                            <div class="video-bttn">
+                            <div class="video-bttn" data-swiper-parallax-scale="0.15">
                                 <img src="svg/leave.svg" alt="">
                                 <div class="text">
                                     самое экологичное очистное сооружение в мире
                                 </div>
                             </div>
-                            <a href="/" class="go-link green">
+                            <a href="#" class="go-link green" data-swiper-parallax-scale="0.15">
                                 <span>перейти на сайт проекта</span>
                                 <img src="svg/green-arrow.svg" alt="">
-                            </a>    
+                            </a>
                             <div class="slider-second-title">
                                 флагманские услуги
                             </div>
-                            <div class="big-text">
+                            <div class="big-text" data-swiper-parallax="-300">
                                 устройства очистки
                                 <div class="green">сточных вод</div>
                             </div>
@@ -276,26 +393,129 @@
                                     </div>
                                 </div>
                             </div>
-        
+
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="content">
-                            <div class="big-text">
-                                комплексное загородное строительство 3
+                            <div class="video-bttn" data-fancy="https://youtu.be/X-X4tCg1jz8" data-swiper-parallax-scale="0.15">
+                                <svg class="video-svg" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                                    <circle cx="32" cy="32" r="31" stroke="white" stroke-width="2" />
+                                    <path d="M42.4609 31.0768L26.7686 40.4033L26.7686 21.7504L42.4609 31.0768Z" fill="white" />
+                                </svg>
+
+                                <div class="text">
+                                    наши сваи уже устанавливают в австралии
+                                </div>
+                            </div>
+                            <a href="#" class="go-link yellow" data-swiper-parallax-scale="0.15">
+                                <span>перейти на сайт проекта</span>
+                                <img src="svg/yellow-arrow.svg" alt="">
+                            </a>
+                            <div class="slider-second-title">
+                                флагманские услуги
+                            </div>
+                            <div class="big-text" data-swiper-parallax="-300">
+                                королёвский
+                                <div class="yellow">завод свай</div>
+                            </div>
+                            <div class="row number-wrap">
+                                <div class="cell-4">
+                                    <div class="number-block">
+                                        <div class="number number-white" data-number="2000">
+                                            0
+                                        </div>
+                                        <div class="text">
+                                            Свай производим каждый день
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell-4">
+                                    <div class="number-block">
+                                        <div class="number number-white">
+                                            <span data-number="24">0</span>/<span data-number="7">0</span>
+                                        </div>
+                                        <div class="text">
+                                            Наш постоянный режим работы
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell-4">
+                                    <div class="number-block">
+                                        <div class="number number-white">
+                                            <span data-number='3'>3</span>,<span data-number='5'>0</span>
+                                        </div>
+                                        <div class="text">
+                                            Миллиона свай установлено нами
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row flex-middle">
+                                <div class="sub-text">
+                                    Крупнейшее в России производство винтовых и железобетонных свай
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="content">
-                            <div class="big-text">
-                                комплексное загородное строительство 4
+                            <div class="video-bttn" data-swiper-parallax-scale="0.15">
+                                <img src="svg/leave.svg" alt="">
+                                <div class="text">
+                                    самое экологичное очистное сооружение в мире
+                                </div>
                             </div>
+                            <a href="#" class="go-link green" data-swiper-parallax-scale="0.15">
+                                <span>перейти на сайт проекта</span>
+                                <img src="svg/green-arrow.svg" alt="">
+                            </a>
+                            <div class="slider-second-title">
+                                флагманские услуги
+                            </div>
+                            <div class="big-text" data-swiper-parallax="-300">
+                                устройства очистки
+                                <div class="green">сточных вод</div>
+                            </div>
+                            <div class="row list-wrap ">
+                                <div class="cell-6">
+                                    <div class="list-block">
+                                        <div class="list list-white">
+                                            официальный дилер
+                                        </div>
+                                        <div class="text">
+                                            предоставляем договор, отчётные документы, любые способы оплаты
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell-6">
+                                    <div class="list-block">
+                                        <div class="list list-white">
+                                            монтаж
+                                        </div>
+                                        <div class="text">
+                                            проводят сертифицированные специалисты, прошедшие обучение
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cell-6">
+                                    <div class="list-block">
+                                        <div class="list list-white">
+                                            БЕЗ ДОПЛАТ
+                                        </div>
+                                        <div class="text">
+                                            за сервисное обслуживание
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container  no-padding">
                 <div class="swiper-pagination big-slider-pagination2"></div>
             </div>
         </div>
@@ -308,7 +528,7 @@
             </div>
             <div class="row is-grid">
                 <div class="cell-12">
-                    <a href="/" class="article_preview" data-aos="fade-up">
+                    <a href="#" class="article_preview" data-aos="fade-up">
                         <div class="article_preview-image_wrap">
                             <img class="article_preview-image" src="jpg/DSC_2357_2.jpg">
                         </div>
@@ -321,10 +541,15 @@
                             </div>
                         </div>
                         <img src="svg/arrow-right-bold.svg" class="article-arrow" alt="">
+                        <svg class='article-hover-svg yel-svg' xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                            <path d="M0 12.2276L50.7701 63.0002H62.9977L0 0V12.2276Z" />
+                            <path d="M0 37.6508L25.3485 62.9994H37.5738L0 25.4232V37.6508Z" />
+                            <path d="M0 62.9995H12.1522L0 50.8473V62.9995Z" />
+                        </svg>
                     </a>
                 </div>
-                <div class="cell-6">
-                    <a href="/" class="article_preview" data-aos="fade-up">
+                <div class="cell-6 cell-12-md">
+                    <a href="#" class="article_preview" data-aos="fade-up">
                         <div class="article_preview-image_wrap">
                             <img class="article_preview-image" src="jpg/image32.jpg">
                         </div>
@@ -337,11 +562,16 @@
                             </div>
                         </div>
                         <img src="svg/arrow-right-bold.svg" class="article-arrow" alt="">
+                        <svg class='article-hover-svg green-svg' xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                            <path d="M0 12.2276L50.7701 63.0002H62.9977L0 0V12.2276Z" />
+                            <path d="M0 37.6508L25.3485 62.9994H37.5738L0 25.4232V37.6508Z" />
+                            <path d="M0 62.9995H12.1522L0 50.8473V62.9995Z" />
+                        </svg>
                     </a>
                 </div>
 
-                <div class="cell-6">
-                    <a href="/" class="article_preview" data-aos="fade-up">
+                <div class="cell-6 cell-12-md">
+                    <a href="#" class="article_preview" data-aos="fade-up">
                         <div class="article_preview-image_wrap">
                             <img class="article_preview-image" src="jpg/sergei-akulich-xdj_w.jpg">
                         </div>
@@ -354,11 +584,16 @@
                             </div>
                         </div>
                         <img src="svg/arrow-right-bold.svg" class="article-arrow" alt="">
+                        <svg class='article-hover-svg grey-svg' xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                            <path d="M0 12.2276L50.7701 63.0002H62.9977L0 0V12.2276Z" />
+                            <path d="M0 37.6508L25.3485 62.9994H37.5738L0 25.4232V37.6508Z" />
+                            <path d="M0 62.9995H12.1522L0 50.8473V62.9995Z" />
+                        </svg>
                     </a>
                 </div>
 
-                <div class="cell-6">
-                    <a href="/" class="article_preview" data-aos="fade-up">
+                <div class="cell-6 cell-12-md">
+                    <a href="#" class="article_preview" data-aos="fade-up">
                         <div class="article_preview-image_wrap">
                             <img class="article_preview-image" src="jpg/robin-glauser-zP7.jpg">
                         </div>
@@ -371,11 +606,16 @@
                             </div>
                         </div>
                         <img src="svg/arrow-right-bold.svg" class="article-arrow" alt="">
+                        <svg class='article-hover-svg blue-svg' xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                            <path d="M0 12.2276L50.7701 63.0002H62.9977L0 0V12.2276Z" />
+                            <path d="M0 37.6508L25.3485 62.9994H37.5738L0 25.4232V37.6508Z" />
+                            <path d="M0 62.9995H12.1522L0 50.8473V62.9995Z" />
+                        </svg>
                     </a>
                 </div>
 
-                <div class="cell-6">
-                    <a href="/" class="article_preview" data-aos="fade-up">
+                <div class="cell-6 cell-12-md">
+                    <a href="#" class="article_preview" data-aos="fade-up">
                         <div class="article_preview-image_wrap">
                             <img class="article_preview-image" src="jpg/yongha-bae-3UP52sadwlRyw-unsplash.jpg">
                         </div>
@@ -388,11 +628,16 @@
                             </div>
                         </div>
                         <img src="svg/arrow-right-bold.svg" class="article-arrow" alt="">
+                        <svg class='article-hover-svg pur-svg' xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                            <path d="M0 12.2276L50.7701 63.0002H62.9977L0 0V12.2276Z" />
+                            <path d="M0 37.6508L25.3485 62.9994H37.5738L0 25.4232V37.6508Z" />
+                            <path d="M0 62.9995H12.1522L0 50.8473V62.9995Z" />
+                        </svg>
                     </a>
                 </div>
 
-                <div class="cell-6">
-                    <a href="/" class="article_preview" data-aos="fade-up">
+                <div class="cell-6 cell-12-md">
+                    <a href="#" class="article_preview" data-aos="fade-up">
                         <div class="article_preview-image_wrap">
                             <img class="article_preview-image" src="jpg/luke-stackpoole-eWqOgJ-lfiI-asd1.jpg">
                         </div>
@@ -405,11 +650,16 @@
                             </div>
                         </div>
                         <img src="svg/arrow-right-bold.svg" class="article-arrow" alt="">
+                        <svg class='article-hover-svg brow-svg' xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                            <path d="M0 12.2276L50.7701 63.0002H62.9977L0 0V12.2276Z" />
+                            <path d="M0 37.6508L25.3485 62.9994H37.5738L0 25.4232V37.6508Z" />
+                            <path d="M0 62.9995H12.1522L0 50.8473V62.9995Z" />
+                        </svg>
                     </a>
                 </div>
 
-                <div class="cell-6">
-                    <a href="/" class="article_preview" data-aos="fade-up">
+                <div class="cell-6 cell-12-md">
+                    <a href="#" class="article_preview" data-aos="fade-up">
                         <div class="article_preview-image_wrap">
                             <img class="article_preview-image" src="jpg/carter-brink-6EmEazqpFgg-d.jpg">
                         </div>
@@ -422,6 +672,11 @@
                             </div>
                         </div>
                         <img src="svg/arrow-right-bold.svg" class="article-arrow" alt="">
+                        <svg class='article-hover-svg red-svg' xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63" fill="none">
+                            <path d="M0 12.2276L50.7701 63.0002H62.9977L0 0V12.2276Z" />
+                            <path d="M0 37.6508L25.3485 62.9994H37.5738L0 25.4232V37.6508Z" />
+                            <path d="M0 62.9995H12.1522L0 50.8473V62.9995Z" />
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -437,27 +692,17 @@
                 мы растём благодаря вам
             </div>
             <div class="row is-grid">
-                <div class="cell-7">
-                    <div class="parallax-banner mt60" style="background-image: url(jpg/james-sullivan-ESZRBtkQ_f8-unsplash1.jpg)">
-                        <div class="line-wrap">
-                            <div class="line"></div>
-                            <div class="line-transparent"></div>
-                            <div class="line"></div>
-                            <div class="line-transparent"></div>
-                            <div class="line"></div>
-                            <div class="line-transparent"></div>
-                            <div class="line"></div>
-                            <div class="line-transparent"></div>
-                            <div class="line"></div>
-                        </div>
+                <div class="cell-7 hide-md">
+                    <div class="parallax-banner mt60">
+                        <img src="jpg/kran.jpg" alt="">
                     </div>
                 </div>
-                <div class="cell-5 about-content">
+                <div class="cell-5 about-content cell-12-md">
                     <div class="row is-grid">
                         <div class="cell-4">
                             <div class="number-block">
-                                <div class="number">
-                                    2014
+                                <div class="number" data-number2="2014">
+                                    0
                                 </div>
                                 <div class="text">
                                     год основания первого завода KZS
@@ -466,8 +711,8 @@
                         </div>
                         <div class="cell-4">
                             <div class="number-block">
-                                <div class="number">
-                                    47
+                                <div class="number" data-number2="47">
+                                    0
                                 </div>
                                 <div class="text">
                                     монтажей осуществляем каждый день
@@ -476,19 +721,20 @@
                         </div>
                         <div class="cell-4">
                             <div class="number-block">
-                                <div class="number">
-                                    6
+                                <div class="number" data-number2="6">
+                                    0
                                 </div>
                                 <div class="text">
                                     раз участвуем в выставках ежегодно
                                 </div>
                             </div>
                         </div>
-                        <div class="cell-12 text-block">
+                        <div class="cell-12 text-block flex-las">
                             KZS group начали свое существование с Королёвского Завода Свай в 2014 году. Клиенты были впечатлены качеством наших фундаментов и часто интересовались, какие ещё услуги мы оказываем в строительной сфере.Объединив опыт с надёжными партнёрами, было принято решение образовазовать один большой холдинг KZS.
                         </div>
                         <div class="cell-12 text-block2">
-                            KZS — надёжный партнер на всех этапах вашего строительства
+                                <img src="jpg/kran.jpg" alt=""  class="hide show-md">
+                            <div class="text">KZS — надёжный партнер на всех этапах вашего строительства</div>
                         </div>
                     </div>
                 </div>
@@ -503,46 +749,40 @@
             </div>
             <div class="row is-grid">
                 <div class="cell-4">
-
-                    <div class="article-item" data-aos="fade-up">
+                    <div class="article-item" data-aos="fade-up" data-aos-duration="300">
                         <div class="article-item-date">20 января</div>
                         <div class="article-item-description">
                             весной Примем участие в крупнейших международных выставках
                         </div>
-                        <a href="/" class="article-item-more">
+                        <a href="#" class="article-item-more" data-fancy="#art1">
                             <span>подробнее</span>
                             <img src="svg/arrow-right.svg" alt="">
                         </a>
                     </div>
-
                 </div>
                 <div class="cell-4">
-
-                    <div class="article-item" data-aos="fade-up">
+                    <div class="article-item" data-aos="fade-up" data-aos-duration="600">
                         <div class="article-item-date">11 января</div>
                         <div class="article-item-description">
                             осенью открываем новое направление услуг
                         </div>
-                        <a href="/" class="article-item-more">
+                        <a href="#" class="article-item-more" data-fancy="#art2">
                             <span>подробнее</span>
                             <img src="svg/arrow-right.svg" alt="">
                         </a>
                     </div>
-
                 </div>
                 <div class="cell-4">
-
-                    <div class="article-item" data-aos="fade-up">
+                    <div class="article-item" data-aos="fade-up" data-aos-duration="900">
                         <div class="article-item-date">07 января</div>
                         <div class="article-item-description">
                             предоставляем эксклюзивную в россии автоматику
                         </div>
-                        <a href="/" class="article-item-more">
+                        <a href="#" class="article-item-more" data-fancy="#art3">
                             <span>подробнее</span>
                             <img src="svg/arrow-right.svg" alt="">
                         </a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -553,19 +793,19 @@
             <div class="form-contacts-title">
                 контакты
             </div>
-            <div class="form-contacts-big-title">есть проект?</div>
+            <div class="form-contacts-big-title js-type"></div>
             <div class="row">
-                <div class="cell-10">
+                <div class="cell-10 cell-8-lg cell-12-md">
                     <form action="/" class="form-kzs">
                         <div class="form-kzs-description">
                             Напишите нам!
                             <br> Мы предоставим готовое решение.
                         </div>
                         <div class="row is-grid">
-                            <div class="cell-6">
+                            <div class="cell-6 cell-12-md">
                                 <input type="text" placeholder="Имя">
                             </div>
-                            <div class="cell-6">
+                            <div class="cell-6 cell-12-md">
                                 <input type="text" required="true" placeholder="Телефон/Почта">
                             </div>
                             <div class="cell-12">
@@ -573,21 +813,28 @@
                             </div>
                         </div>
                         <div class="row is-grid form-contacts-footer flex-middle">
-                            <div class="cell-6">
+                            <div class="cell-6 cell-12-md">
                                 <label for="cond">
                                     <input type="checkbox" id="cond" checked>
                                     <div class="text">
-                                        Я принимаю <a href="/">условия</a> передачи информации
+                                        Я принимаю <a href="#">условия</a> передачи информации
                                     </div>
                                 </label>
                             </div>
-                            <div class="cell-6">
+                            <div class="cell-6 cell-12-md">
                                 <button type="submit">ОТПРАВИТЬ</button>
+                            </div>
+                        </div>
+                        <div class="form-kzs-success">
+                            <img src="svg/email.svg" alt="">
+                            <div class="thx">спасибо!</div>
+                            <div class="text">
+                                Мы обработаем Ваше письмо, и наш менеджер свяжется с Вами в ближайшее время.
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="cell-2">
+                <div class="cell-2 pt30 cell-4-lg cell-12-md text-center-md">
                     <div class="grey-white">
                         <div class="grey">телефон</div>
                         <a href="tel:8 800 500 40 30" class="white">8 800 500 40 30</a>
@@ -612,32 +859,86 @@
     <footer>
         <div class="container">
             <div class="row flex-between footer-menu flex-middle">
-                <a href="/">сваи</a>
+                <a href="#" class="hover-yellow">сваи</a>
                 <div class="del">|</div>
-                <a href="/">септики и погреба</a>
+                <a href="#" class="hover-green">септики и погреба</a>
                 <div class="del">|</div>
-                <a href="/">автоматика</a>
+                <a href="#" class="hover-blue">автоматика</a>
                 <div class="del">|</div>
-                <a href="/">заборы и ворота</a>
+                <a href="#" class="hover-pur">заборы и ворота</a>
                 <div class="del">|</div>
-                <a href="/">террасы</a>
+                <a href="#" class="hover-red">террасы</a>
                 <div class="del">|</div>
-                <a href="/">металлопрокат</a>
+                <a href="#" class="hover-grey">металлопрокат</a>
                 <div class="del">|</div>
-                <a href="/">домостроение</a>
+                <a href="#" class="hover-brown">домостроение</a>
             </div>
             <div class="row flex-between bottom-footer">
                 <div class="copy">© KZS GROUP, 2020</div>
-                <a href="/">партнёрам</a>
+                <a href="#">партнёрам</a>
                 <div>
-                    <a href="/">INSTAGRAM</a> <span class="bottom-del">/</span> <a href="/">FACEBOOK</a>
+                    <a href="#">INSTAGRAM</a> <span class="bottom-del">/</span> <a href="#">FACEBOOK</a>
                 </div>
             </div>
         </div>
     </footer>
 
+    <div class="modal-hide added-modal" id="art1">
+        <div class="pop-up-article">
+            <div class="article-item-date">
+                20 января
+            </div>
+            <div class="pop-up-article-title">
+                весной Примем участие в крупнейших международных выставках
+            </div>
+            <div class="pop-up-article-description">
+                С 16 по 15 марта наша компания участвует в выставке“Красивые Дома”, а с 16 по 19 апреля на выставке “Загородный Дом”.
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-hide added-modal" id="art2">
+        <div class="pop-up-article">
+            <div class="article-item-date">
+                11 января
+            </div>
+            <div class="pop-up-article-title">
+                осенью открываем новое направление услуг
+            </div>
+            <div class="pop-up-article-description">
+                С осени мы открываем новое направление наших услуг -- металлопрокат.
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-hide added-modal" id="art3">
+        <div class="pop-up-article">
+            <div class="article-item-date">
+                07 января
+            </div>
+            <div class="pop-up-article-title">
+                теперь Предоставляем эксклюзивную автоматику в россии
+            </div>
+            <div class="pop-up-article-description">
+                <p> В начале января из Минска мы привезли подписанный договор с Deasystem. Они являются эксклюзивным поставщиком итальянской автоматики в странах СНГ:</p>
+                <br> - Автоматика для откатных, распашных и секционных ворот
+                <br> - Шлагбаумы и болларды
+                <br> - Контроль доступа
+                <br> - Аксессуары для автоматики
+                <br> - Комплекты для откатных ворот
+                <br> - Фурнитура для ворот и калиток
+                <br> - Системы ограждений, заборы
+                <br>
+                <p>Теперь мы поставляем комплектующие детали автоматики и выполнять работы по изготовлению и установке ворот, калиток, шлагбаумов и иных конструкций «под ключ» вместе с автоматикой.</p>
+            </div>
+        </div>
+    </div>
+
     <script src="js/swiper.min.js"></script>
     <script src="js/aos.js"></script>
+    <script src="js/jq.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/type.js"></script>
     <script src="js/main.js"></script>
 </body>
 
